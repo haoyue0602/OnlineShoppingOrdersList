@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Online Shopping Orders List</string>
+    <string name="order_name_hint">订单名称</string>
+    <string name="order_title_label">订单名称:</string>
+    <string name="order_date">创建日期:</string>
+    <string name="order_is_finished_label">订单已完成</string>
+    <string name="tracking_number_hint">请输入快递单号:</string>
+    <string name="tracking_number_label">快递单号:</string>
+    <string name="title_activity_test">test</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_order">New Order</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">1$s crimes</string>
+    <string name="order_view">订单详情</string>
+    <string name="edit_new">订单编辑</string>
+</resources>

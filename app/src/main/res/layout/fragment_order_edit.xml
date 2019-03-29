@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_title_label"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/order_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/order_name_hint" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_date"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/order_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_1"
+        android:text="选择日期" />
+
+    <CheckBox
+        android:id="@+id/order_finished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_is_finished_label" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tracking_number_label"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/tracking_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tracking_number_hint"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/goods_count_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="产品数量:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/goods_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_1"
+        android:text="save" />
+
+</LinearLayout>

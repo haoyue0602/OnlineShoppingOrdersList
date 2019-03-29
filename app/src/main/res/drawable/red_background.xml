@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按定“删除”按钮时该按钮显示的颜色：深红色-->
+    <item android:state_pressed="true">
+        <layer-list >
+            <item >
+                <shape >
+                    <solid android:color="#9B2828"/>
+                </shape>
+            </item>
+            <item >
+                <shape >
+                    <solid android:color="#22000000"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item >
+        <shape>
+            <!--“删除”按钮直接看上去的颜色：粉红色-->
+            <!--solid 实心，即填充-->
+            <solid android:color="#EE4E42"/>
+        </shape>
+    </item>
+</selector>
